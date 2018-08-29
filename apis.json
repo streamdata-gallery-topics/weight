@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Weight",
+	"description": "This is a repository of weight APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/weight.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://weight.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Fitbit",
+			"x-api-slug": "fitbit",
+			"description": "Find your fit with Fitbits family of fitness products that help you stay motivated and improve your health by tracking your activity, exercise, food, weight and sleep.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/200-fitbit.jpg",
+			"humanURL": "http://fitbit.com",
+			"baseURL": "https://api.fitbit.com//1",
+			"tags": "Weight",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/weight/master/_listings/fitbit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EhrScape",
+			"x-api-slug": "ehrscape",
+			"description": "Health app development shouldnt be harder than other verticals. EhrScape is all about making awesome healthcare apps easy to build and integrate into your environment. Healthcare computing that just works. EhrScape handles all the hard bits, including detailed clinical models, semantic interoperability, vendor independent data storage, health data query and more. Our mission is to empower you to build amazing healthcare apps and services. Welcome aboard. Were just getting started and weve got very big plans!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/EHRScape-Logo.png",
+			"humanURL": "https://www.ehrscape.com",
+			"baseURL": "http://rest.ehrscape.com//terminology-adapter/rest",
+			"tags": "Weight",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/weight/master/_listings/ehrscape/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Weight",
+	"include": [
+		{
+			"name": "Fitbit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/weight/master/_listings/fitbit/apis.yaml"
+		},
+		{
+			"name": "EhrScape",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/weight/master/_listings/ehrscape/apis.yaml"
+		}
+	]
+}

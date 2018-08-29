@@ -12,11 +12,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Weight
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/weight/master/_listings/ehrscape/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Ehr Scape Electronic Health Record APIs - Gets recorded weights for a patient
+  x-api-slug: viewehridweight-get
+  description: Gets recorded weights for a patient.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/EHRScape-Logo.png
+  humanURL: https://www.ehrscape.com
+  baseURL: https://rest.ehrscape.com//rest/v1
+  tags: Healthcare, Healthcare, Target, Stack Network, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/weight/master/_listings/ehrscape/viewehridweight-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ebay.api.gallery.streamdata.io
